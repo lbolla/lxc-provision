@@ -1,5 +1,7 @@
 # LXC provision scripts
 
+![Tests](https://github.com/lbolla/lxc-provision/actions/workflows/python-app.yml/badge.svg)
+
 Provision an LXC (container or VM) from a .yaml file.
 
 Run as:
