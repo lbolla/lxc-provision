@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lxc-provision"
+version = "0.1.0"
+description = ""
+authors = ["Lorenzo Bolla <code@lbolla.info>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+yamlenv = "^0.7.1"
+coloredlogs = "^15.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+lxc-provision = "lxc_provision.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
