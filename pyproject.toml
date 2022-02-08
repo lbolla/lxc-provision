@@ -5,12 +5,12 @@ description = ""
 authors = ["Lorenzo Bolla <code@lbolla.info>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-yamlenv = "^0.7.1"
-coloredlogs = "^15.0.1"
+python = ">=3.8"
+yamlenv = ">=0.7"
+coloredlogs = ">=15.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = ">=6"
 
 [tool.poetry.scripts]
 lxc-provision = "lxc_provision.main:main"
